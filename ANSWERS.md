@@ -80,10 +80,12 @@ It ensures fairness and avoids starvation by allocating CPU time equally among u
 ## Summary
 
 **Key concepts I understood through these questions:**
-1. 
-2. 
-3. 
+1. The difference between processes and threads
+2.  The practical operation of round-robin scheduling
+3. The progression of threads through several lifespan stages
 
 **Concepts I need to study more:**
-1. 
-2. 
+1. Synchronization methods like semaphores and locks
+2. Managing race situations and other concurrency difficulties
+
+
