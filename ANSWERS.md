@@ -58,21 +58,22 @@ As each process thread in this assignment runs, pauses during execution, and ult
 
 **Your Answer:**
 
-### Example 1: [Name of application/scenario]
+### Example 1:  Scheduling of Operating Systems
 
 **Description**: 
-[Describe the real-world scenario or application]
+Operating systems oversee several concurrently operating activities, including background services and applications.
+
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+Every process receives an equal amount of CPU time thanks to round-robin scheduling. This makes the system responsive and stops any process from being disregarded.
 
-### Example 2: [Name of application/scenario]
+### Example 2:  Systems with Multiple Users
 
 **Description**: 
-[Describe the real-world scenario or application]
+CPU time must be distributed effectively in systems where several users are executing programs concurrently.
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+It ensures fairness and avoids starvation by allocating CPU time equally among users' processes.
 
 ---
 
