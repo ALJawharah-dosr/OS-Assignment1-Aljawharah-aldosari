@@ -21,16 +21,17 @@ Because the scheduler must effectively manage several jobs, threads were employe
 **Question**: In Round-Robin scheduling, what happens when a process doesn't finish within its time quantum? Explain using an example from your program output.
 
 **Your Answer:**
-
-[Write your answer here. Describe the specific behavior - where does the process go? When does it run again? Give an example from your actual program output showing a process that was re-queued.]
-
+Round-Robin scheduling assigns a fixed time quantum to every process. The process is paused and pushed to the end of the ready queue if it doesn't complete in this amount of time.
+Because no process may monopolize the CPU and all processes have equal opportunities to run, this assures fairness.
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+P1 completed quantum 4000ms
+Remaining time: 2973ms
+P1 yields CPU for context switch
 ```
 
 **Explanation of example:**
-[Explain what's happening in the output snippet you pasted]
+This example demonstrates that process P1 did not complete within the allotted time. As a result, it was stopped and put back in the ready queue. When it has another chance, it will carry on with its execution.This conduct amply illustrates how Round-Robin scheduling preserves equity and keeps people from starving.
 
 ---
 
