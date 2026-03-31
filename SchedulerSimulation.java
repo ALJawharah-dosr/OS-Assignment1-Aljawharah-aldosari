@@ -4,6 +4,8 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.Random;
 
+
+ // Feature 1 is complete 
 // ANSI Color Codes for enhanced terminal output
 class Colors {
     public static final String RESET = "\u001B[0m";
