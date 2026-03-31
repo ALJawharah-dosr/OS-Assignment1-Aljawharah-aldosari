@@ -8,9 +8,9 @@ Answer the following questions about your learning experience. Each answer shoul
 ## Question 1: What did you learn about multithreading?
 
 **Your Answer:**
-
-[Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
-
+This assignment taught me how Java multithreading operates and how threads can be used to simulate numerous processes. I comprehended how scheduling methods like Round-Robin are used by the CPU to swap between processes.
+Additionally, I learnt about a thread's lifespan and how it shifts between various states, including waiting and running. I was able to grasp these ideas practically thanks to the simulation.
+Overall, this homework helped me better grasp how operating systems effectively handle certain jobs.
 ---
 
 ## Question 2: What was the most challenging part of this assignment?
