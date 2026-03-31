@@ -40,18 +40,15 @@ This example demonstrates that process P1 did not complete within the allotted 
 **Question**: A thread can be in different states: **New**, **Runnable**, **Running**, **Waiting**, **Terminated**. Walk through these states for one process (P1) from your simulation.
 
 **Your Answer:**
+In Java, a thread's lifecycle consists of multiple states:
+1. **New**:  Although the thread has been created, it has not yet begun.
+2. **Runnable**:  After invoking start(), the thread is prepared to run.
+3. **Running**:The thread is using the CPU to carry out active operations.
+4. **Waiting**:The use of techniques such as Thread.sleep() causes the thread to suspend its operation.
+5. **Terminated**:  The thread completes its task and ends its execution.
+   
+As each process thread in this assignment runs, pauses during execution, and ultimately finishes, various statuses can be seen.
 
-[Write your answer here. For each state, explain when P1 enters that state during the simulation. Use your understanding of the code to trace through the lifecycle.]
-
-1. **New**: [When is P1 in New state?]
-
-2. **Runnable**: [When does P1 become Runnable?]
-
-3. **Running**: [When is P1 Running?]
-
-4. **Waiting**: [When/why would P1 be Waiting?]
-
-5. **Terminated**: [When is P1 Terminated?]
 
 ---
 
