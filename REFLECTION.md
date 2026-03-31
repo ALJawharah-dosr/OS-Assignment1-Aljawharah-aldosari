@@ -25,9 +25,10 @@ This challenge is related to the complexity of scheduling algorithms and thread 
 ## Question 3: How did you overcome the challenges you faced?
 
 **Your Answer:**
-
-[Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
-
+By dividing the code into manageable chunks and concentrating on one area at a time, I was able to overcome these difficulties.
+In order to comprehend how processes advance in the queue and how their remaining time varies, I also used the program output.
+I also went over the lecture materials and contrasted them with the implementation of the code.
+This increased my confidence while working with threads and helped me comprehend the rationale better.
 ---
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
