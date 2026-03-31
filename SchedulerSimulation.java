@@ -25,6 +25,8 @@ class Colors {
 
 // Class representing a process that implements Runnable to be run by a thread
 class Process implements Runnable {
+    // Feature 1
+    private int priority;
     private String name; // Name of the process
     private int burstTime; // Total time the process requires to complete (in milliseconds)
     private int timeQuantum; // Time slice (time quantum) allowed per CPU access (in milliseconds)
@@ -36,6 +38,8 @@ class Process implements Runnable {
         this.burstTime = burstTime;
         this.timeQuantum = timeQuantum;
         this.remainingTime = burstTime; // Initially, remaining time is equal to the burst time
+        //  Feature 1
+        this.priority = 1 + new Random().nextInt(5);
     }
 
     // This method will be called when the thread for this process is started
@@ -128,7 +132,10 @@ class Process implements Runnable {
     public String getName() {
         return name;
     }
-
+   //  Feature 1
+    public int getPriority() {
+    return priority;
+   }
     public int getBurstTime() {
         return burstTime;
     }
@@ -147,7 +154,7 @@ public class SchedulerSimulation {
     public static void main(String[] args) {
         // ⚠️ IMPORTANT: Put your student ID here to seed the random number generator
         // This makes your output unique to you - DO NOT forget to change this!
-        int studentID = 123456789;  // ← CHANGE THIS TO YOUR ACTUAL STUDENT ID
+        int studentID = 445052070;  // ← CHANGE THIS TO YOUR ACTUAL STUDENT ID
         
         Random random = new Random(studentID);
         
@@ -293,7 +300,5 @@ public class SchedulerSimulation {
         // Print a message indicating the process has entered the ready queue
         System.out.println(Colors.BLUE + "  ➕ " + Colors.BOLD + Colors.CYAN + process.getName() + 
                           Colors.RESET + Colors.BLUE + " added to ready queue" + Colors.RESET + 
-                          " │ Burst time: " + Colors.YELLOW + process.getBurstTime() + "ms" + 
-                          Colors.RESET);
-    }
+                          " │ Burst time: " + Colors.YELLOW + process.getBurstTime() +"ms"+ Colors.RESET +" │ Priority: " + Colors.BRIGHT_YELLOW + process.getPriority());} //  Feature 1
 }
