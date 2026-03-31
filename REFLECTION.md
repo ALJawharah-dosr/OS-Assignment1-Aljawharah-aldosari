@@ -16,9 +16,10 @@ Overall, this homework helped me better grasp how operating systems effectively 
 ## Question 2: What was the most challenging part of this assignment?
 
 **Your Answer:**
-
-[Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
-
+Understanding how the scheduler loop operates and how processes are managed in the ready queue was the most difficult aspect of this assignment.
+It was initially unclear how the program determines when a process is completed and how processes return to the queue after each quantum.
+Understanding the results and monitoring each process's execution presented another challenge.
+This challenge is related to the complexity of scheduling algorithms and thread behavior.
 ---
 
 ## Question 3: How did you overcome the challenges you faced?
