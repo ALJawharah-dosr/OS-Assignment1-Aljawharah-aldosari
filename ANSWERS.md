@@ -10,9 +10,10 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 **Question**: Explain the difference between a **thread** and a **process**. Why did we use threads in this assignment instead of creating separate processes?
 
 **Your Answer:**
-
-[Write your answer here. Consider: What is a process? What is a thread? How do they differ in terms of memory, resources, creation overhead? Why are threads more suitable for this simulation?]
-
+A process is a stand-alone program that is running and has its own memory and system resources. Because processes are segregated from one another, they are more costly in terms of resource consumption but also more secure.
+Within a process, a thread is a smaller unit of execution. Faster communication and more effective execution are made possible by several threads sharing the same memory area.
+The primary distinction is that threads are lighter and enable quicker context change, whereas processes are heavier and need more overhead.
+Because the scheduler must effectively manage several jobs, threads were employed in this project. The simulation runs more quickly and is simpler to control within a single program when threads are used.
 ---
 
 ## Question 2: Ready Queue Behavior
