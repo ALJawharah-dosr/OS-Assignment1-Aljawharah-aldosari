@@ -45,18 +45,16 @@ I gained a better understanding of how these systems effectively handle certain 
 
 ### What would you like to learn more about?
 
-[Any topics related to threading, concurrency, or operating systems that you're curious about?]
-
+I would like to learn more about synchronization techniques such as locks, semaphores, and how to avoid race conditions. I am also interested in understanding deadlocks and how they can be detected and prevented in multithreaded systems.
 ---
 
 ### How confident do you feel about multithreading concepts now?
-
-[Rate yourself and explain: Beginner / Intermediate / Confident]
-
-[Explain your rating - what do you understand well? What needs more practice?]
-
+I feel more confident than before, especially in understanding how threads work and how scheduling algorithms like Round-Robin operate. I can follow the execution flow and understand how processes share CPU time.
+However, I still need more practice with advanced topics like synchronization and handling concurrency issues in more complex programs.
 ---
 
 ### Feedback on the assignment
-
-[Any comments about the assignment? Was it helpful? Too easy/hard? Suggestions for improvement?]
+The assignment was very helpful in understanding multithreading concepts in a practical way. It allowed me to see how scheduling works instead of just reading about it.
+At first, it was a bit challenging to understand the code and the scheduler logic, but after working through it, it became clearer.
+Overall, the assignment was useful, but adding a simpler example at the beginning could make it easier for students to get started.
+---
