@@ -41,7 +41,7 @@ The code structure was a bit confusing at the beginning, especially the threadin
 Solution:
 I focused on reading the comments and tried to follow the execution step by step.
 Time spent: 50 minutes
-
+---
 Entry 2 - [March 25, 2026, 5:00 PM]
 What I did: Studied the Process class
 Details:
@@ -51,7 +51,7 @@ It was not clear how the remaining time updates after each execution.
 Solution:
 I traced the values manually and followed the logic carefully.
 Time spent: 1 hour
-
+---
 Entry 3 - [March 26, 2026, 6:30 PM]
 What I did: Analyzed the scheduler behavior
 Details:
@@ -61,7 +61,7 @@ Understanding why processes go back to the queue was confusing at first.
 Solution:
 I reviewed the Round-Robin concept from lecture notes and connected it with the code.
 Time spent: 2 hour
-
+---
 Entry 4 - [March 28, 2026, 4:00 PM]
 What I did: Tested and observed program output
 Details:
@@ -71,7 +71,7 @@ The output was long and hard to follow at first.
 Solution:
 I focused only on important lines like execution, remaining time, and queue updates.
 Time spent: 55 minutes
-
+---
 Entry 5 - [March 31, 2026, 2:00 PM]
 What I did: Implemented all required features
 Details:
@@ -85,10 +85,10 @@ Time spent: 3 hours
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**:  8 - 10 hours 
 
-**Most challenging part**: following process execution throughout the queue and comprehending how the scheduler loop operates.
+**Most challenging part**:following process execution throughout the queue and comprehending how the scheduler loop operates.
 
 **Most interesting learning**: Seeing how programs share CPU time and how Round-Robin scheduling operates in real-world scenarios.
 
-**What I would do differently next time**: 
+**What I would do differently next time**: I would start implementing the required features earlier instead of leaving them until the last day. I would also spend more time understanding the scheduler logic from the beginning, which would make the implementation easier and faster.
